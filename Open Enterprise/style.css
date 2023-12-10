@@ -123,3 +123,7 @@ line-height: 24px; /* 133.333% */
     background: url("/Open Enterprise/assets/Vector.svg"), transparent 50% / cover no-repeat;
     
 }
+.section{
+    background-color: var(--color10);
+    
+}
