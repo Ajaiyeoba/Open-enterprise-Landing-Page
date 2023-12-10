@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Cut&family=Nova+Oval&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Nova+Cut&family=Nova+Oval&display=swap');
+
+:root{
+    --color1: #303031;
+    --color2: #66645E;
+    --color3: #71A894;
+    --color4: #F3F0EA;
+    --color5: #FFFFFF;
+    --color6: #F5C64F;
+    --color7: #71A894;
+    --color8: #807E76;
+    --color9 : #81BFA8;
+    --color10: #F9F9F9;    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: var(--color10);
+    height: 100vh;
+    width: 100vw;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 97px;
+    background-color: var(--color10);
+    height: 12vh;
+    padding-top: 10px;
+    border-bottom:  2px solid var(--color1);
+}
+.navbar-brand{
+    display: flex;
+}
+.navbar-brand img{
+    width: 68px;
+    height: 40px;
+}
+.navbar-brand h2{
+    color: var(--color1);
+    font-family: "Nova Cut";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    margin-left: 10px;
+}
+
+.navlist #last{
+    color: var(--color3);
+}
+
+.navlist a{
+    color: var(--Black, #303031);
+font-family: "Nova Oval";
+font-size: 20px;
+font-weight: 500;
+letter-spacing: 0.4px;
+margin-left: 10px;
+}
+
+.land{
+    display: flex;
+    width: 100%;
+height: 569.578px;
+flex-shrink: 0;
+background-color: var(--color5);
+}
+
+.land-text h2{
+    width: 608px;
+    color: var(--color1);
+font-family: "Agbalumo";
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 80px; /* 125% */
+margin-left: 50px;
+margin-top: 70px;
+}
+.land-text p{
+    width: 608px;
+    color: var(--color1);
+    font-family: "Nova Oval" ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.48px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.requestbtn{
+    border-radius: 8px;
+background: #71A894;
+display: inline-flex;
+padding: 20px 24px;
+align-items: center;
+border: none;
+margin-left: 50px;
+margin-top: 30px;
+color: var(--color10);
+font-family:  "Nova Cut";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 133.333% */
+}
+.land-img img{
+    margin-right:-120px;
+}
+.land-img{
+    width:px;
+    height: 869px;
+    flex-shrink: 0;
+    background: url("/Open Enterprise/assets/Vector.svg"), transparent 50% / cover no-repeat;
+    
+}
