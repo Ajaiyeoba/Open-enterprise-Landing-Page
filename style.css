@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Cut&family=Nova+Oval&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Nova+Cut&family=Nova+Oval&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Nova+Cut&family=Nova+Oval&family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Nova+Cut&family=Nova+Oval&family=Nova+Sxxuare&display=swap');
 
 :root{
     --color1: #303031;
@@ -26,6 +26,8 @@
     background-color: var(--color10);
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
+
 }
 .navbar{
     display: flex;
@@ -36,6 +38,7 @@
     height: 12vh;
     padding-top: 10px;
     border-bottom:  2px solid var(--color1);
+   position: relative;
 }
 .navbar-brand{
     display: flex;
@@ -115,17 +118,17 @@ font-style: normal;
 font-weight: 700;
 line-height: 24px; /* 133.333% */
 transition: 0.9s;
-
 }
 .land-img img{
-
+    width: 72%;
+    margin-right: 4rem; 
+    margin-top: 3rem; 
+    background: transparent;
 }
 .land-img{
-    width:px;
-    height: 869px;
+    height: 100vh;
     flex-shrink: 0;
-    background: url("/Open Enterprise/assets/Vector.svg"), transparent 50% / cover no-repeat;
-    
+    background: url("/assets/Vector.svg"), transparent 50% / cover no-repeat;
 }
 .section{
     background-color: var(--color10);
@@ -258,7 +261,7 @@ margin-bottom: 1.9rem;
 }
 .feature-message h5{
     color: var(--color1);
-    font-family: "Nova Square";
+    font-family: "Nova Sqquare";
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -481,4 +484,88 @@ margin-bottom: 1.9rem;
     margin-top: 12rem;
     margin-right: 4rem;
     margin-left: 3rem;
+}
+
+.faq-section{
+    margin-top: 4rem;
+    justify-content: center;
+}
+.faq-section h2{
+    text-align: center;
+    justify-content: center;
+    color: var(--color1);
+    text-align: center;
+    font-family: 'Agbalumo';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; /* 133.333% */
+}
+
+.faq-section p{
+    color: var(--Black, #303031);
+    text-align: center;
+    font-family: 'Nova Oval';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: -0.36px;
+    width: 895px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13rem;
+}
+
+.faq{
+    display: flex;
+
+}
+
+.faq1{
+    width: 327px;
+height: 240px;
+flex-shrink: 0;
+border-radius: 16px;
+background: var(--color10);
+/* Card Shadow */
+box-shadow: 0px 2px 4px 0px var(--color1);
+margin: 2rem;
+}
+.faq1 h4 p {
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+}
+
+.view{
+    display: inline;
+    display: inline-flex;
+padding: 20px 24px;
+flex-direction: column;
+align-items: center;
+border-radius: 8px;
+background: var(--color1);
+color: var(--color10);
+text-align: center;
+font-family: Proxima Nova;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 133.333% */
+}
+
+
+@media  screen and (min-width: 767px) {
+    .navbar{
+        position: fixed;
+        /* top: 0;
+        right: -100%;
+        width: 30vw;
+        min-width: 450px;
+        font-size: 2rem;
+        border-bottom: none; */
+    }
 }
